@@ -2,14 +2,20 @@
 
 ## Exercise I
 
-a)
+a) O(n) Linear
 
 
-b)
+b) O(n log(n)) linearithmic
 
 
-c)
+c) O(n) Linear
 
 ## Exercise II
 
+start on len(floors) // 2 #halfway
+drop egg
+if break recurse(floors[:start])
+else
+recurse(floors[start:])
 
+O(log n) logarithmic
